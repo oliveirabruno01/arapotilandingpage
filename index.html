@@ -128,7 +128,7 @@
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6">
-                        <form id="contactForm">
+                        <form id="contactForm" method="post" action="https://formspree.io/f/xwkargol">
                             <p id="form-start">Sou...</p>
                             <div class="mb-4">
                                 <input type="radio" class="btn-check" name="contato_options" id="e_outline" autocomplete="off" required>
@@ -138,22 +138,22 @@
                             </div>
 
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Digite seu nome..." required/>
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Digite seu nome..." required/>
                                 <label for="name">Nome completo</label>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="nome@email.com" required/>
+                                <input class="form-control" id="email" type="email" placeholder="nome@email.com" name="email" required/>
                                 <label for="email">Email</label>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(12) 9 9123-4567" required/>
+                                <input class="form-control" id="phone" type="tel" placeholder="(12) 9 9123-4567" name="phone" required/>
                                 <label for="phone">Telefone</label>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Digite sua dúvida ou mensagem..." style="height: 10rem" required></textarea>
+                                <textarea class="form-control" id="message" type="text" name="message" placeholder="Digite sua dúvida ou mensagem..." style="height: 10rem" required></textarea>
                                 <label for="message">Olá, Arapoti...</label>
                             </div>
 
